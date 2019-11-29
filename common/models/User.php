@@ -25,7 +25,7 @@ use yii\web\IdentityInterface;
 class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_DELETED = 0;
-    const STATUS_INACTIVE = 9;
+    const STATUS_INACTIVE = 10;     //Value was changed 9 to 10, for User signup feature
     const STATUS_ACTIVE = 10;
 
 
